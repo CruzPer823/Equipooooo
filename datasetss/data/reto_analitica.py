@@ -44,12 +44,25 @@ cluster4=df[kmeans.labels_==4]
 
 # %%
 sns.boxplot(data=cluster0, x=df['weekday'], y="Food%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Fresh%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Drinks%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Home%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Beauty%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Health%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Baby%")
-sns.boxplot(data=cluster0, x=df['weekday'], y="Pets%")
 
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Fresh%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Drinks%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Home%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Beauty%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Health%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Baby%")
+
+# %%
+sns.boxplot(data=cluster0, x=df['weekday'], y="Pets%")
 # %%
